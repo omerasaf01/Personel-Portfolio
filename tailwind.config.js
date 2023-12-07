@@ -8,7 +8,10 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        mobile: {max: "426px"}
+        mobile: {max: "605px"},
+        mobilePhoto: {max: "1141px"},
+        mobilePhoto2: {min: "1141px"},
+        mobileCards: {max: "768px"}
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

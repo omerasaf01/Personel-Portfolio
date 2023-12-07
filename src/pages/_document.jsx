@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
       </Head>
-      <body>
+      <body className="scroll-smooth">
         <Main />
         <NextScript />
       </body>
