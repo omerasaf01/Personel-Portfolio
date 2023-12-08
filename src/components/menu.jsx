@@ -44,6 +44,7 @@ function MobileMenu() {
           {Config.Nav.map((item) => {
             return (
               <Link
+              key={item.id}
                 href={item.href}
                 className="py-3 w-full hover:bg-opacity-50 flex justify-center items-center scroll-smooth"
               >
@@ -66,7 +67,7 @@ function DesktopMenu() {
       <div className="flex justify-around space-x-12">
         {Config.Nav.map((item) => {
           return (
-            <Link href={item.href} className="text-xl scroll-smooth">
+            <Link href={item.href} key={item.id} className="text-xl scroll-smooth">
               {item.title}
             </Link>
           );

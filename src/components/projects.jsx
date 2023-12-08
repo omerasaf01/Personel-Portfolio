@@ -55,7 +55,7 @@ export default function Projects() {
   });
 
   return (
-    <div className="w-full h-full pt-24" id="projects">
+    <div className="w-full h-full mobilePhoto:mt-52" id="projects">
       <div className="w-full pb-24">
         <h2 className="text-5xl bg-gradient-to-r from-sky-300 to-purple-800 text-transparent bg-clip-text font-bold w-full text-center">
           Projects
