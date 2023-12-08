@@ -40,10 +40,10 @@ export default function Projects() {
         className="text-white bg-black rounded-xl grid grid-cols-1 py-7 relative group/card overflow-hidden"
         key={userElement.id}
       >
-        <h2 className="w-full text-start text-3xl p-4 z-10 flex items-center gap-4">
+        <h2 className="w-full text-start text-2xl p-4 z-10 flex items-center gap-4">
           <CgNametag /> {userElement.name}
         </h2>
-        <h2 className="z-10 flex gap-4 items-center px-4 w-full text-start text-2xl">
+        <h2 className="z-10 flex gap-4 items-center px-4 w-full text-start text-lg">
           <BsFillFileEarmarkCodeFill /> {userElement.language}
         </h2>
         <div className="w-0 h-full transition-all duration-200 group-hover/card:w-full absolute left-0 top-0 bg-emerald-300/40 z-0" />
@@ -61,7 +61,7 @@ export default function Projects() {
           Projects
         </h2>
       </div>
-      <div className="gap-11 px-24 w-full grid mobileCards:grid-cols-1 grid-cols-2">
+      <div className="gap-11 px-24 mobileCards:px-7 w-full grid mobileCards:grid-cols-1 grid-cols-2">
         {repos}
       </div>
       <div className="w-full flex py-24 justify-center items-center">
