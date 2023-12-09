@@ -14,14 +14,14 @@ export default function Home() {
     <Opening>
       <Particle />
       <div className="h-full flex flex-col">
-        <div className="w-full h-screen flex flex-col">
+        <div className="w-full h-auto flex flex-col">
           <Menu />
           <Content />
         </div>
-        <div className="h-screen">
+        <div className="h-auto">
           <About />
         </div>
-        <div className="h-screen">
+        <div className="h-auto">
           <Projects />
         </div>
       </div>
