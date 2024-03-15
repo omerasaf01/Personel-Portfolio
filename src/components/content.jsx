@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "./Photo";
+import Photo from "./photo";
 
 export default function Content() {
   return (
