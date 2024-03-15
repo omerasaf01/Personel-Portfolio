@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Photo from "./Photo";
+import Photo from "./Photo.jsx";
 
 export default function About() {
   return (
