@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Photo from "./Photo";
 
 export default function About() {
   return (
@@ -12,7 +13,7 @@ export default function About() {
       </div>
       <div className="grid grid-cols-2 mobilePhoto:grid-cols-1 grid-flow-row items-center justify-center w-full gap-10 mobilePhoto:py-12">
         <div className="w-full flex justify-center">
-          <Image src="/Hyouka.png" width={500} height={500} />
+          <Photo />
         </div>
         <div className="w-full h-full pt-24 mobilePhoto:pt-0">
           <div>

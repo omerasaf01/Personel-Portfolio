@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Photo from "./Photo";
 
 export default function Content() {
   return (
@@ -21,13 +21,13 @@ export default function Content() {
             </p>
           </div>
           <div className="flex justify-center items-center">
-            <Image src="/Hyouka.png" width={400} height={800} />
+            <Photo />
           </div>
         </div>
       </div>
       <div className="mobilePhoto:flex flex-col items-center justify-center pt-12 hidden">
         <div className="flex justify-center items-center">
-          <Image src="/Hyouka.png" width={400} height={800} />
+          <Photo />
         </div>
         <div className="flex flex-col justify-center text-center">
           <span className="font-bold text-7xl">

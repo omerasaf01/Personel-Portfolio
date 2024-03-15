@@ -11,7 +11,8 @@ module.exports = {
         mobile: {max: "605px"},
         mobilePhoto: {max: "1141px"},
         mobilePhoto2: {min: "1141px"},
-        mobileCards: {max: "768px"}
+        mobileCards: {max: "768px"},
+        mobileCards2: {min: "539px"}
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
